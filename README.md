@@ -18,7 +18,7 @@ g++ -std=c++11 include/sampler.h include/sampler.cpp include/Parser.h
 This will generate an executable file called "a.out". To run it, just type "./a.out" in ther terminal window. 
 
 ### Input
-The model first parses the input files which are in the "input" folder. These files are in json format and they contain the commuting matrices (baseline, soft and full lockdown) and the population files. To change the epidemiological parameters (i.e. R_0), modify directly the main.cpp file (before running again, remember to recompile).
+The model first parses the input files which are in the "input" folder. These files are in json format and they contain the commuting matrices (baseline, soft and full lockdown), the population files, the contacts matrices and the contacts reduction parameters. To change the epidemiological parameters (i.e. R_0), modify directly the main.cpp file (before running again, remember to recompile).
 
 ### Output
 The model generates a "results.txt" file in the output directory. This file contains the evolution in time of the number of S, E, I, R individuals in different comunas and different age groups. For example the column "I_10_5", contains the the time series of the number of infected for comuna 10 in age group 5. 

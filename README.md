@@ -14,7 +14,7 @@ The data folder contains the commuting matrices across comunas in the three diff
 ## Code
 ### Compile and run
 The code folder contains the C++ file needed to run the epidemic model. To compile and generate an executable file, open the code directoty in terminal and type: 
-g++ -std=c++11 include/sampler.h include/sampler.cpp include/Parser.h 
+g++ -std=c++11 main.cpp include/sampler.h include/sampler.cpp include/Parser.h 
 This will generate an executable file called "a.out". To run it, just type "./a.out" in ther terminal window. 
 
 ### Input

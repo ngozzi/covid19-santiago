@@ -1,0 +1,5 @@
+{"transitions_file": "./input/slir.json",
+  "commuting_file": "./input/commuting1.json",
+  "populations_file": "./input/populations.json",
+  "contacts_file_home": "./input/contacts_home.json",
+  "contacts_file_other": "./input/contacts_other.json"}

@@ -1,4 +1,4 @@
-# Estimating the effect of social inequalities in the mitigation of COVID-19 across communities in Santiago de Chile
+# Estimating the effect of social inequalities on the mitigation of COVID-19 across communities in Santiago de Chile
 Data and code for the paper "Estimating the effect of social inequalities in the mitigation of COVID-19 across communities in Santiago de Chile"
 
 ![alt text](https://github.com/ngozzi/covid19-santiago/blob/master/santiago.png)
